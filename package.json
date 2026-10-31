@@ -1,0 +1,11 @@
+{
+  "name": "ebe-simulador-amostral",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Planejamento didático de contrastes pareados, poder estatístico e recrutamento. Primeiro caso: Attarieh et al. (2026).",
+  "scripts": {
+    "build": "python3 build.py",
+    "test": "node --test --test-reporter=dot",
+    "serve": "python3 -m http.server 8767 --bind 127.0.0.1"
+  }
+}

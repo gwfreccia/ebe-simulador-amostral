@@ -1,0 +1,86 @@
+{
+  "dependencia": {
+    "title": "Medidas dependentes",
+    "text": "As duas pernas pertencem à mesma pessoa; regiões e testes também compartilham estruturas. Essas observações são correlacionadas. A análise deve representar essa dependência, sem contá-las como pessoas independentes."
+  },
+  "ic": {
+    "title": "Intervalo de confiança de 95%",
+    "text": "Expressa a precisão da estimativa sob o modelo utilizado. Sua interpretação depende do desenho e das premissas. Não é a probabilidade de que o efeito seja verdadeiro e não informa, sozinho, importância estética."
+  },
+  "rm": {
+    "title": "Ressonância magnética · RM/MRI",
+    "text": "Usa campo magnético e radiofrequência para produzir imagens de tecidos, sem radiação ionizante. Permite estimar áreas e volumes; aquisição, localização e segmentação precisam ser padronizadas para acompanhar mudanças."
+  },
+  "tc": {
+    "title": "Tomografia computadorizada · TC/CT",
+    "text": "Utiliza raios X e reconstrução de imagens. Pode quantificar área, volume e atenuação muscular. Protocolo, posição e segmentação alteram o resultado. Não foi usada no estudo de Attarieh."
+  },
+  "sem": {
+    "title": "Erro padrão da medida · SEM",
+    "text": "É uma medida de erro de mensuração, idealmente estimada por exames repetidos no mesmo protocolo. Não é o desvio-padrão entre pessoas nem o erro-padrão da média. Aqui a unidade relevante é cm²."
+  },
+  "csa": {
+    "title": "Área de secção transversa · CSA",
+    "text": "Área de um corte do músculo, em cm². Ela depende do local e da orientação do corte. Volume integra áreas ao longo do músculo e é expresso em cm³. Uma média de áreas não é um volume."
+  },
+  "icc": {
+    "title": "Coeficiente de correlação intraclasse · ICC",
+    "text": "Descreve uma propriedade relativa da confiabilidade e depende da variabilidade da amostra e do modelo de ICC. Um ICC alto pode coexistir com erro absoluto importante para detectar pequenas mudanças."
+  },
+  "mdc": {
+    "title": "Mínima mudança detectável · MDC",
+    "text": "Limiar usado para avaliar se uma mudança individual supera o erro esperado, sob premissas definidas. Não é o mesmo que mudança mínima importante, nem a menor diferença detectável na média do grupo."
+  },
+  "significancia": {
+    "title": "Significância estatística",
+    "text": "O resultado ultrapassa um limiar do teste sob um modelo definido. Isso não mede a chance de a hipótese ser verdadeira, a magnitude do efeito ou a importância para a pessoa. Um resultado não significativo também não demonstra equivalência."
+  },
+  "delta": {
+    "title": "Diferença verdadeira hipotética · Δ",
+    "text": "Vantagem média de uma condição na mudança pré–pós em relação à outra. Não é o crescimento total de uma perna. Neste experimento escolhemos um cenário; não conhecemos a diferença verdadeira do artigo."
+  },
+  "sd": {
+    "title": "DP da diferença pareada",
+    "text": "Desvio-padrão, entre pessoas, da diferença entre a mudança de uma perna e a mudança da outra. Inclui variação real de resposta e erro aleatório. Não é o DP basal nem o DP da mudança de uma única perna."
+  },
+  "relevancia": {
+    "title": "Importância para a decisão estética",
+    "text": "Uma diferença pode ser estatisticamente detectável e ainda não ser visível, desejada ou grande o suficiente para mudar uma decisão. O artigo não estabelece um limiar estético. A importância exige desfecho adequado e preferências das pessoas."
+  },
+  "alfa": {
+    "title": "Alfa · erro tipo I",
+    "text": "Limiar do procedimento estatístico. Sob a hipótese nula e as premissas do teste, alfa=0,05 corresponde a cerca de 5% de rejeições em muitas repetições. Não é a chance de uma conclusão positiva ser falsa."
+  },
+  "dz": {
+    "title": "d_z · efeito padronizado pareado",
+    "text": "É a diferença média verdadeira hipotética dividida pelo desvio-padrão das diferenças pareadas. Não é automaticamente o ES que os autores calcularam usando o desvio-padrão basal."
+  },
+  "poder": {
+    "title": "Poder estatístico",
+    "text": "Probabilidade de o teste atingir significância sob uma diferença verdadeira e demais premissas especificadas. Não é a probabilidade de o efeito existir e não depende apenas de n. A simulação usa um teste bilateral."
+  },
+  "correlacao": {
+    "title": "Correlação entre respostas",
+    "text": "Indica quanto as mudanças verdadeiras das duas pernas variam juntas entre pessoas. Neste modelo, maior correlação reduz a dispersão da diferença pareada. Erros de medida e dependências mais complexas podem mudar essa relação."
+  },
+  "rmscv": {
+    "title": "RMSCV · erro relativo de repetição",
+    "text": "Coeficiente de variação pela raiz da média dos quadrados. Resume o erro de repetição em porcentagem. É específico do protocolo e da população; não é a chance de uma conclusão ser falsa."
+  },
+  "basal": {
+    "title": "DP basal combinado",
+    "text": "Resume a dispersão entre pessoas antes do treino, combinando os DP das duas condições com pesos iguais neste estudo. Aqui ele serve para expressar uma diferença alvo em cm². Não é o DP das diferenças entre as respostas das duas pernas."
+  },
+  "bruto": {
+    "title": "Diferença bruta entre as mudanças",
+    "text": "É a mudança média com extensão menos a mudança média com abdução, calculada das médias arredondadas da tabela. O sinal positivo favorece extensão; o negativo, abdução. O contraste ajustado da ANCOVA pode ser diferente."
+  },
+  "regua": {
+    "title": "Uma fração do DP basal como alvo",
+    "text": "Multiplicamos a fração escolhida pelo DP basal para obter um alvo em cm². O rótulo convencional de efeito pequeno não estabelece importância estética. Para calcular poder, esse alvo é depois dividido pelo DP pareado hipotético, produzindo d_z."
+  },
+  "lsc": {
+    "title": "Least significant change · LSC",
+    "text": "Limiar de mudança calculado a partir do erro de repetição, com premissas e nível de confiança definidos. Ajuda a avaliar uma mudança individual. Não indica que a mudança seja esteticamente importante nem é o limiar da média de um grupo."
+  }
+}
